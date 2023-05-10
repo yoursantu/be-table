@@ -1,0 +1,45 @@
+@import "vue-multiselect/dist/vue-multiselect.min.css";
+
+.multiselect {
+    min-height: 43px !important;
+    color: #6e707e;
+    font-weight: 500;
+}
+
+.multiselect__tags {
+    min-height: 43px !important;
+    padding: 1px 40px 0 8px;
+    border: 1px solid #d1d3e2;
+}
+
+.multiselect--active .multiselect__tags {
+    min-height: 33px !important;
+    padding: 10px 40px 0 14px;
+    margin-bottom: 1px;
+}
+
+.multiselect__placeholder {
+    color: #6f717f !important;
+    margin-bottom: 7px;
+    padding-top: 12px;
+    margin-left: 9px;
+}
+
+.multiselect__single {
+    padding-left: 9px !important;
+    margin-bottom: 5px;
+    padding-top: 14px;
+}
+
+.multiselect__select {
+    height: 41px;
+}
+
+.multiselect__input::placeholder {
+    padding-top: 5px;
+}
+
+.multiselect__input::placeholder,
+.multiselect__element {
+    font-size: 14px;
+}
